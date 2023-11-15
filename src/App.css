@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #F4F5F8;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.status-group {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+.sections {
+  flex: 1; /* Make each section take up equal space vertically */
+  /* border: 1px solid #ddd; Add a border for visual separation */
+  padding: 20px; /* Add some padding for spacing within each section */
+}
